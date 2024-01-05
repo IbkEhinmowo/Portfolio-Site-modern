@@ -48,7 +48,7 @@ html {
 }
 
 body {
-  font-family: 'NTR', sans-serif;
+  font-family: "NTR", sans-serif;
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
@@ -345,6 +345,7 @@ main {
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
   width: 30%;
+  min-width: 450px;
 }
 
 .project:hover {
