@@ -38,6 +38,7 @@ div.ball {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 3;
   transform: translate(-50%, -50%);
 
   mix-blend-mode: difference;
@@ -186,7 +187,7 @@ button {
   border: 2px solid var(--clr-primary);
   position: relative;
   overflow: hidden;
-  z-index: 1;
+  z-index: 4;
 }
 
 .btn--outline:focus,
@@ -247,11 +248,19 @@ button {
 }
 
 .header {
-  height: 8em;
+  height: 4em;
   max-width: 1500px;
-  width: 90%;
+  width: 80%;
+  position: fixed; /* Stays at the top */
+  bottom: 89%;
+  left: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: var(--clr-bg);
   margin: 0 auto;
   justify-content: space-between;
+  z-index: 2;
 }
 
 main {
@@ -419,6 +428,9 @@ main {
 @media (max-width: 600px) {
   .header {
     height: 6em;
+    position: static;
+    transform: none;
+    background-color: var(--clr-bg);
   }
   .ball {
     visibility: hidden;
@@ -457,6 +469,9 @@ main {
   .nav__hamburger {
     display: flex;
     margin-left: 0.8em;
+  }
+  .fa {
+    padding-right: 8px;
   }
 
   .about {
