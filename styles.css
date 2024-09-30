@@ -65,7 +65,7 @@ body {
 
 /* Dark theme */
 .light {
-  --clr-bg: #252422;
+  --clr-bg: #000000;
   --clr-bg-alt: #9e5656;
   --clr-fg: #c8c8c8;
   --clr-fg-alt: #fffefe;
