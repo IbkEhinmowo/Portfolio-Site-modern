@@ -178,7 +178,7 @@ button {
 
 .btn {
   display: block;
-  border-radius: 20px;
+  border-radius: 7px;
   padding: 0.8em 1.4em;
   font-weight: 500;
   font-size: 0.9rem;
@@ -256,7 +256,7 @@ button {
   max-width: 1500px;
   width: 80%;
   position: fixed; /* Stays at the top */
-  bottom: 89%;
+  bottom: 88%;
   left: 0;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -326,6 +326,7 @@ main {
 .about__desc,
 .about__contact {
   margin-top: 2.4em;
+  width: fit-content;
 }
 
 .about .link--icon {
