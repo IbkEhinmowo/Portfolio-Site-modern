@@ -56,26 +56,20 @@ body {
 }
 
 /* Light theme */
-.light {
-  --clr-bg: #d6d6d6;
-  --clr-bg-alt: #bebebe;
-  --clr-fg: #555;
-  --clr-fg-alt: #445;
-  --clr-primary: #5c0700;
-  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
+
 .fa {
   margin: 0;
   padding: 0;
+  color: var(--clr-primary);
 }
 
 /* Dark theme */
-.dark {
+.light {
   --clr-bg: #252422;
   --clr-bg-alt: #9e5656;
   --clr-fg: #c8c8c8;
   --clr-fg-alt: #fffefe;
-  --clr-primary: #f9cdcd;
+  --clr-primary: #ccccff;
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
@@ -308,6 +302,7 @@ main {
 
 .about__role {
   margin-top: 1.2em;
+  color: #9e9eff;
 }
 
 .about__desc {
