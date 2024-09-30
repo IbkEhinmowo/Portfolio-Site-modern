@@ -6,10 +6,13 @@ var typed = new Typed(".about__name", {
   backSpeed: 65,
   // fadeOut: true,
   loop: true,
-loopCount: 100,
+  loopCount: 100,
   // showCursor: false
   // cursorChar: '...'
 });
+
+
+
 
 const body = document.body;
 

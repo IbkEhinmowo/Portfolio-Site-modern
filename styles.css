@@ -54,6 +54,8 @@ body {
   background-color: var(--clr-bg);
   transition: background-color 0.6s ease;
 }
+
+/* Light theme */
 .light {
   --clr-bg: #d6d6d6;
   --clr-bg-alt: #bebebe;
@@ -62,7 +64,12 @@ body {
   --clr-primary: #5c0700;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+.fa {
+  margin: 0;
+  padding: 0;
+}
 
+/* Dark theme */
 .dark {
   --clr-bg: #252422;
   --clr-bg-alt: #9e5656;
@@ -134,7 +141,7 @@ button {
 
 .link {
   color: var(--clr-primary);
-  padding: 0 0 0.3em 0;
+  padding: 0 0 0.1em 0;
   position: relative;
   background-color: inherit;
 }
@@ -147,7 +154,7 @@ button {
   content: "";
   display: inline;
   width: 0%;
-  height: 0.2em;
+  height: 0.1em;
   position: absolute;
   bottom: 0;
   background-color: var(--clr-primary);
@@ -167,7 +174,7 @@ button {
 
 .link--icon {
   color: var(--clr-fg);
-  font-size: 1.2rem;
+  font-size: 1.2em;
 }
 
 .btn {
@@ -275,7 +282,7 @@ main {
 }
 
 .nav__list-item {
-  margin-left: 1.5em;
+  margin-left: 1em;
 }
 
 .nav__hamburger {
