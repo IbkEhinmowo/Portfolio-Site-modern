@@ -41,11 +41,11 @@ const scrollUp = () => {
 document.addEventListener("scroll", scrollUp);
 const ball = document.querySelector("div.ball");
 
-let mouseX = 0;
-let mouseY = 0;
+let mouseX = window.innerWidth / 2; // Default to center (horizontally)
+let mouseY = window.innerHeight / 2; // Default to center (vertically)
 
-let ballX = 0;
-let ballY = 0;
+let ballX = window.innerWidth / 2 - ball.offsetWidth / 2; // Center of the screen horizontally
+let ballY = window.innerHeight / 2 - ball.offsetHeight / 2; // Center of the screen vertically
 
 let speed = 0.2;
 
