@@ -13,6 +13,7 @@
   "author": "Ives van Hoorne",
   "license": "MIT",
   "devDependencies": {
+    "http-server": "^14.1.1",
     "serve": "^11.2.0"
   }
 }
