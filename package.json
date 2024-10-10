@@ -10,10 +10,12 @@
     "html",
     "css"
   ],
-  "author": "Ives van Hoorne",
+  "author": "Ibk",
   "license": "MIT",
   "devDependencies": {
     "http-server": "^14.1.1",
-    "serve": "^11.2.0"
-  }
+    "serve": "^14.2.3"
+  },
+  "repository": "https://github.com/IbkEhinmowo/Portfolio-Site-modern.git"
 }
+
