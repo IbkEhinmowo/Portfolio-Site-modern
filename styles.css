@@ -287,6 +287,12 @@ main {
   margin-right: 1.5em;
   display: flex;
 }
+hr {
+  margin: 1em 0;
+  width: 100%;
+  border: 0;
+  border-top: 0.5px solid gray;
+}
 
 .nav__list-item {
   margin-left: 1em;
@@ -302,11 +308,11 @@ main {
 
   justify-content: center;
   margin: auto;
-  width: 90%;
+  width: 100%;
   margin-top: 3em;
   height: 90vh;
   border-bottom-color: var(--clr-bg);
-  border-bottom: solid thin;
+
 }
 
 .about__name {
@@ -352,16 +358,15 @@ main {
 }
 
 .project {
-  border-radius: 20px;
-  padding: 2em;
+  border-radius: 40px;
   display: flex;
   justify-content: center;
   margin: 1em;
-  text-align: center;
+  text-align:left;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
   width: 30%;
-  min-width: 450px;
+  min-width: 400px;
 }
 
 .project:hover {
@@ -370,6 +375,10 @@ main {
 
 .project__description {
   margin-top: 1em;
+}
+#project_photo{
+  width: 100%;
+  border-radius: 5px;
 }
 
 .project__stack {
