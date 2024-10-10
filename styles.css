@@ -344,17 +344,18 @@ hr {
 }
 
 .projects__grid {
-  /* 
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
-  grid-gap: 2em; */
-  max-width: 1100px;
+
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+.project_name{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var( --clr-primary);
+  margin-top: 1em;
 }
 
 .project {
@@ -375,6 +376,8 @@ hr {
 
 .project__description {
   margin-top: 1em;
+  font-weight: 100;
+
 }
 #project_photo{
   width: 100%;
@@ -428,6 +431,11 @@ hr {
   font-weight: 700;
   color: var(--clr-fg);
 }
+img {
+  width: 360px;
+  height: 300px;
+  object-fit: cover;
+}
 
 .scroll-top {
   display: none;
@@ -437,6 +445,11 @@ hr {
   background-color: transparent;
   font-size: 1.8rem;
   transition: transform 0.2s ease-in-out;
+}
+.rights{
+  text-align: center;
+  margin-top: 0em;
+  color: var(--clr-fg);
 }
 
 @media (max-width: 600px) {

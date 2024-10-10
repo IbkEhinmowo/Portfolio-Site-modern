@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Portfolio" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
-      rel="stylesheet" />
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png"/> 
 
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png"/> 
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"/>
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png"/>
 <link rel="manifest" href="images/site.webmanifest">
@@ -40,16 +36,11 @@
             <a class="link link--nav" href="#contact">Contact</a>
           </li>
         </ul>
-
         <button type="button" aria-label="toggle theme" class="btn btn--icon">
           <i aria-hidden="true" id="btn-theme" class="fa fa-moon"></i>
         </button>
-
-
       </nav>
-      
-      <nav>
-        
+      <nav>    
         <ul class=" center">
           <li class=" nav__list-item">
             <a
@@ -59,7 +50,6 @@
           >
             <i aria-hidden="true" class="fa fa-linkedin"></i>
           </a>
-
         </li>
         <li class="nav__list-item">
           <a
@@ -69,14 +59,11 @@
           class=" link--icon"
         >
           <i aria-hidden="true" class="fa fa-github">   </i>
-        </a>
-
-          
+        </a>  
         </li>
       </ul>
       </nav>
     </header>
-
     <main>
       <!-- About -->
       <div class="about center">
@@ -87,141 +74,57 @@
            I thrive in dynamic environments and collaborate effectively with diverse teams. 
            I’m always eager to learn new technologies and adapt to various methodologies </p>
 <div class="ball"></div>
-        <div class="about__contact center">
-          
+        <div class="about__contact center">     
           <a  target="_blank" href="https://drive.google.com/file/d/1RD_MquYdbJFY2eaqy24EH7cCcNJbYev_/view?usp=share_link">
             <span class="btn btn--outline ">Resume</span>
           </a>
-
-
         </div>
       </div>
       <hr>
-
       <!-- Projects -->
       <section id="projects" class="section projects">
         <h2 class="section__title">~/ projects</h2>
-
         <div class="projects__grid">
-
           <div class="project">
             <div class="innerproject">
-
-            
             <img src="images/stack.png" alt="stack" id="project_photo">
-            <h3>Three.js-Based Stack Game</h3>
+            <h3 class="project_name">Three.js-Based Stack Game</h3>
              <p class="project__description">
               A game developed using Three.js, Cannon.js, and JavaScript.
             </p>
-            <p class="project__description">Javascript, Three.js, Cannon.js</p>
-         
+            <p class="project__description">Javascript, Three.js, Cannon.js</p>   
+              <a
+              href="https://github.com/IbkEhinmowo/StackGame"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fa fa-github"></i>       
+            </a>
+            </div>  
+          </div>
+
+          <div class="project">      
+            <div class="innerproject">         
+            <img src="images/github.png" alt="stack" id="project_photo">
+            <h3 class="project_name">Github-Profile search tool</h3>
+             <p class="project__description">
+              utilizes the github api to search for github users 
+            </p>
+            <p class="project__description">Vite, TypeScript</p>   
               <a
               href="https://github.com/IbkEhinmowo/StackGame"
               aria-label="source code"
               class="link link--icon"
             >
               <i aria-hidden="true" class="fa fa-github"></i>
-           
             </a>
             </div>
-            <!-- 
-              
-            <p class="project__description">
-              I developed an engaging stack game using Three.js, 
-              took a couple weeks to sort out bugs but it works....finally
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">Three.js</li>
-              <li class="project__stack-item">JavaScript</li>
-              <li class="project__stack-item">Cannon.js</li>
-            </ul>
-
-            <a
-              href="https://github.com/IbkEhinmowo/StackGame"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fa fa-github"></i>
-            </a>
-            <a
-              href="https://codesandbox.io/p/github/IbkEhinmowo/StackGame"
-              aria-label="live preview"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a> -->
           </div>
           </div>
-
-          <div class="project">
-            
-            <div class="innerproject">
-                        <h3>Github Profile-Finder</h3>
-            <p class="project__description">
-              A React-based web application that allows users to search for GitHub profiles and display key user information fetched dynamically from the GitHub API.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">CSS</li>
-              <li class="project__stack-item">TypeScript</li>
-              <li class="project__stack-item">React</li>
-            </ul>
-
-            <a
-              href="https://github.com/IbkEhinmowo/Github-Profile-finder"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-              href="https://codesandbox.io/p/github/IbkEhinmowo/Github%20Profile%20finder"
-              aria-label="live preview"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-          </div>
-          </div>
-
-          <div class="project">
-            
-            <div class="innerproject">
-              <h3>Portfolio Page</h3>
-            <p class="project__description">
-              A clean and functional portfolio page built using vanilla JavaScript, showcasing my web development skills and projects
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">CSS</li>
-              <li class="project__stack-item">JavaScript</li>
-              <li class="project__stack-item">Html</li>
-            </ul>
-
-            <a
-              href="https://github.com/IbkEhinmowo/Portfolio-Site-modern"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-              href="https://ibkehinmowo.github.io/Portfolio-Site-modern/"
-              aria-label="live preview"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-          </div>
-          </div>
-  
-          </div>
-        
-
-
-
-        
+          </div>        
         </div>
       </section>
-
+      <hr>
       <!-- Skills -->
       <section class="section skills" id="skills">
         <h2 class="section__title">~/ skills </h2>
@@ -240,7 +143,6 @@
           <li class="skills__list-item btn btn--plain">CI/CD</li>
         </ul>
       </section>
-
       <!-- Contact -->
       <section class="section contact center" id="contact">
         <h2 class="section__title">~/ Contact</h2>
@@ -249,11 +151,9 @@
         </a>
       </section>
     </main>
-
     <footer class="footer">
 <p>Thanks</p>
     </footer>
-
     <div class="scroll-container">
     <div class="scroll-top">
       <a aria-label="Scroll up" href="#top">
@@ -261,7 +161,9 @@
       </a>
     </div>
     </div>
-
     <script src="./script.js"></script>
   </body>
+  <hr>
+  <footer class="rights">
+    <p>© 2024 All rights reserved. developed by Ibukun </p>
 </html>
