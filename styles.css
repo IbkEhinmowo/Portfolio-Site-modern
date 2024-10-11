@@ -368,6 +368,8 @@ hr {
   transition: transform 0.2s linear;
   width: 30%;
   min-width: 400px;
+    z-index: 4;
+  
 }
 
 .project:hover {
@@ -467,10 +469,7 @@ img {
     margin-top: 4em;
   }
   .project {
-    width: 90%;
-  }
-  .project img {
-    visibility: hidden;
+    width: 100%;
   }
   .nav__list {
     flex-direction: column;
