@@ -368,7 +368,7 @@ hr {
   transition: transform 0.2s linear;
   width: 30%;
   min-width: 400px;
-    z-index: 4;
+  z-index: 4;
   
 }
 
@@ -497,7 +497,7 @@ img {
     margin-left: 0.8em;
   }
   .fa {
-    padding-right: 8px;
+    padding-right: 15px;
   }
 
   .about {
