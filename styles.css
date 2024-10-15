@@ -393,7 +393,7 @@ hr {
 }
 #project_photo{
   width: 100%;
-  border-radius: 5px;
+  border-radius: 1px;
 }
 
 .project__stack {
@@ -438,9 +438,8 @@ hr {
   color: var(--clr-fg);
 }
 img {
-  width: 360px;
-  height: 300px;
-  object-fit: cover;
+  width: 280px;
+  height: 220px;
  transition: 1s ;
 }
 img:hover{
