@@ -10,6 +10,9 @@
   box-shadow: none;
   box-sizing: border-box;
 }
+ a{
+  overflow: hidden;
+}
 .typed-cursor {
   animation: blink-animation 2s step-end infinite;
 }
@@ -63,9 +66,10 @@ body {
   padding: 0;
   color: var(--clr-primary);
   transition: transform 0.3s ease-in-out;
+
 }
 .fa:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 /* Dark theme */
@@ -173,7 +177,7 @@ button {
 
 .link--icon {
   color: var(--clr-fg);
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
 .btn {
@@ -359,7 +363,7 @@ hr {
 }
 
 .project {
-  border-radius: 40px;
+  border-radius: 5px;
   display: flex;
   justify-content: center;
   margin: 1em;
@@ -371,9 +375,15 @@ hr {
   z-index: 4;
   
 }
+.innerproject{
+  padding: 0.5em;
+  overflow: hidden;
+  border-radius: 4px;
+
+}
 
 .project:hover {
-  transform: translateY(-7px);
+  transform: translateY(-3px);
 }
 
 .project__description {
@@ -437,7 +447,11 @@ img {
   width: 360px;
   height: 300px;
   object-fit: cover;
+ transition: 1s ;
 }
+img:hover{
+  transform: scale(1.03);
+} 
 
 .scroll-top {
   display: none;
@@ -497,7 +511,7 @@ img {
     margin-left: 0.8em;
   }
   .fa {
-    padding-right: 15px;
+    margin-right: 15px;
   }
 
   .about {
