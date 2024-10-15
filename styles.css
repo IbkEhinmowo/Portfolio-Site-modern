@@ -41,7 +41,7 @@ div.ball {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 3;
+  z-index: 6;
   transform: translate(-50%, -50%);
 
   mix-blend-mode: difference;
@@ -74,8 +74,8 @@ body {
 
 /* Dark theme */
 .light {
-  --clr-bg: #000b16;
-  --clr-bg-alt: #9e5656;
+  --clr-bg: #00050a;
+  --clr-bg-alt: #606083;
   --clr-fg: #c8c8c8;
   --clr-fg-alt: #fffefe;
   --clr-primary: #ccccff;
@@ -268,7 +268,7 @@ button {
   background-color: var(--clr-bg);
   margin: 0 auto;
   justify-content: space-between;
-  z-index: 2;
+  z-index: 5;
 }
 
 main {
@@ -282,7 +282,7 @@ main {
 }
 
 .section__title {
-  text-align: center;
+  text-align: left;
   margin-bottom: 1em;
   text-transform: lowercase;
 }
@@ -404,12 +404,6 @@ hr {
   margin: 1.2em 0;
 }
 
-.project__stack-item {
-  margin: 0.5em;
-  font-weight: 500;
-  font-size: 0.8rem;
-  color: var(--clr-fg-alt);
-}
 
 .project .link--icon {
   margin-left: 0.5em;
