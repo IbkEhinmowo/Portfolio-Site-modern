@@ -10,7 +10,7 @@
   box-shadow: none;
   box-sizing: border-box;
 }
- a{
+a {
   overflow: hidden;
 }
 .typed-cursor {
@@ -59,13 +59,11 @@ body {
   transition: background-color 0.6s ease;
 }
 
-
 .fa {
   margin: 0;
   padding: 0;
   color: var(--clr-primary);
   transition: transform 0.3s ease-in-out;
-
 }
 .fa:hover {
   transform: scale(1.1);
@@ -255,16 +253,12 @@ button {
 .header {
   height: 4em;
   max-width: 1500px;
-  width: 80%;
-  position: fixed; /* Stays at the top */
-  bottom: 88%;
-  left: 0;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
+  width: 100%;
+  position: sticky;
+  top: 0;
   background-color: var(--clr-bg);
   margin: 0 auto;
-  justify-content: space-between;
+  justify-content: space-around;
   z-index: 5;
 }
 
@@ -313,7 +307,6 @@ hr {
   margin-top: 3em;
   height: 90vh;
   border-bottom-color: var(--clr-bg);
-
 }
 
 .about__name {
@@ -345,17 +338,16 @@ hr {
 }
 
 .projects__grid {
-
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-.project_name{
+.project_name {
   font-size: 1.5rem;
   font-weight: 700;
-  color: var( --clr-primary);
+  color: var(--clr-primary);
   margin-top: 1em;
 }
 
@@ -364,19 +356,17 @@ hr {
   display: flex;
   justify-content: center;
   margin: 1em;
-  text-align:left;
+  text-align: left;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
   width: 30%;
   min-width: 400px;
   z-index: 4;
-  
 }
-.innerproject{
+.innerproject {
   padding: 0.5em;
   overflow: hidden;
   border-radius: 4px;
-
 }
 
 .project:hover {
@@ -386,9 +376,8 @@ hr {
 .project__description {
   margin-top: 1em;
   font-weight: 100;
-
 }
-#project_photo{
+#project_photo {
   width: 100%;
   border-radius: 1px;
 }
@@ -400,7 +389,6 @@ hr {
   justify-content: center;
   margin: 1.2em 0;
 }
-
 
 .project .link--icon {
   margin-left: 0.5em;
@@ -438,11 +426,11 @@ img {
   width: 280px;
   height: 220px;
 
- transition: 1s ;
+  transition: 1s;
 }
-img:hover{
+img:hover {
   transform: scale(1.03);
-} 
+}
 
 .scroll-top {
   display: none;
@@ -453,7 +441,7 @@ img:hover{
   font-size: 1.8rem;
   transition: transform 0.2s ease-in-out;
 }
-.rights{
+.rights {
   text-align: center;
   margin-top: 0em;
   color: var(--clr-fg);
@@ -461,10 +449,12 @@ img:hover{
 
 @media (max-width: 600px) {
   .header {
-    height: 6em;
+    height: 4em;
     position: static;
     transform: none;
     background-color: var(--clr-bg);
+    width: 80%;
+    justify-content: space-between;
   }
   .ball {
     visibility: hidden;
@@ -474,7 +464,7 @@ img:hover{
     margin-top: 4em;
   }
   .section__title {
-  text-align: left;
+    text-align: left;
   }
   .project {
     width: 100%;
